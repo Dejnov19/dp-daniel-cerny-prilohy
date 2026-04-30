@@ -4,6 +4,10 @@
 
 Složka obsahuje AutoCAD .NET plugin napsaný v C#, který automatizuje technickou přípravu dat po převodu grafiky do CAD prostředí. Plugin řeší normalizaci geometrie, tvorbu výplní, parcelaci motivu, řazení objektů pro laserové workflow a export kružnic do výrobního textového formátu.
 
+## Dostupnost zdrojového kódu
+
+Zdrojový kód pluginu není v této příloze poskytnut z důvodu ochrany firemního tajemství. Plugin je ve firmě aktivně používán a počítá se s jeho dalším rozšiřováním. V příloze je proto uveden pouze popis funkcí, použitých technologií a ukázkové podpůrné soubory.
+
 ## Technologie
 
 - Jazyk: C#
@@ -13,17 +17,17 @@ Složka obsahuje AutoCAD .NET plugin napsaný v C#, který automatizuje technick
 - Cílové prostředí: AutoCAD 2024
 - Hlavní reference: `acmgd.dll`, `acdbmgd.dll`, `accoremgd.dll`, `acdbmgdbrep.dll`
 
-## Obsah projektu
+## Funkční oblasti
 
-| Soubor / oblast | Popis |
+| Oblast | Popis |
 | --- | --- |
-| `FillClass.cs` | Tvorba plných hatch výplní nad vybranou geometrií. |
-| `ExportClass.cs` | Export kružnic do `.asc` souboru pro navazující výrobní zpracování. |
-| `2cirClass.cs` | Převod `ELLIPSE` a `SPLINE` entit na kružnice. |
-| `ParcelClass.cs` | Parcelace motivu do obdélníkových segmentů. |
-| `Laser_Order.cs` | Řazení objektů podle polohy a volitelné číslování. |
-| `DashedLineFillClass.cs` | Výplň uzavřených oblastí soustavou úseček. |
-| `*Form.cs` | WinForms dialogy pro nastavení parametrů příkazů. |
+| Tvorba výplní | Tvorba plných hatch výplní nad vybranou geometrií. |
+| Export dat | Export kružnic do `.asc` souboru pro navazující výrobní zpracování. |
+| Normalizace geometrie | Převod `ELLIPSE` a `SPLINE` entit na kružnice. |
+| Parcelace motivu | Rozdělení motivu do obdélníkových segmentů. |
+| Řazení objektů | Řazení objektů podle polohy a volitelné číslování. |
+| Technologická výplň | Výplň uzavřených oblastí soustavou úseček. |
+| Uživatelská nastavení | Dialogy pro nastavení parametrů příkazů. |
 
 ## Dostupné příkazy
 
@@ -46,11 +50,12 @@ Složka obsahuje AutoCAD .NET plugin napsaný v C#, který automatizuje technick
 
 ## Omezení
 
-- Projekt je vázaný na lokální instalaci AutoCADu 2024 a absolutní cesty v `.csproj`.
-- Část velikostí a barev je zapsána přímo ve zdrojovém kódu.
+- Zdrojový kód není součástí veřejné přílohy z důvodu ochrany firemního tajemství.
+- Projekt je vázaný na lokální instalaci AutoCADu 2024.
+- Část velikostí a barev je zapsána přímo v interní implementaci pluginu.
 - Některé operace pracují s bounding boxy, ne s plnou topologickou analýzou motivu.
 - Příkaz `LBSORTNET` mění pořadí objektů klonováním a mazáním původních entit.
 
 ## Vazba na diplomovou práci
 
-Plugin navazuje na prototypy ve složce `AutoCAD_LispScripts` a převádí je do robustnější podoby nad AutoCAD .NET API.
+Plugin navazuje na prototypy ve složce `AutoCAD_LispScripts` a převádí je do robustnější podoby nad AutoCAD .NET API. Na rozdíl od ostatních přiložených projektů nejde pouze o historický nebo nahrazený prototyp; tento nástroj se ve firmě používá a je určený k dalšímu rozvoji.

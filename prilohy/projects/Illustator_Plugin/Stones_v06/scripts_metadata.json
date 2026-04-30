@@ -1,0 +1,12 @@
+{
+    "kusovnik_v01.js": {
+        "name": "Kusovník",
+        "desc": "Generuje kusovník s počty kamenů",
+        "session": true
+    },
+    "reColor.jsx": {
+        "name": "Přebarvení",
+        "desc": "Udělá obrysy všech kamenů v základních RGB barvách (pro technology)",
+        "session": true
+    }
+}

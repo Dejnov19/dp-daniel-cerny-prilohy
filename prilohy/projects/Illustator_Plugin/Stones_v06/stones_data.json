@@ -1,0 +1,40 @@
+{
+  "Kulate": [
+    { "rozmer": "ss2", "velikost": 1.5 },
+    { "rozmer": "ss3", "velikost": 1.6 },
+    { "rozmer": "ss4", "velikost": 1.9 },
+    { "rozmer": "ss5", "velikost": 2.0 },
+    { "rozmer": "ss6", "velikost": 2.2 },
+    { "rozmer": "ss7", "velikost": 2.4 },
+    { "rozmer": "ss8", "velikost": 2.6 },
+    { "rozmer": "ss9", "velikost": 2.8 },
+    { "rozmer": "ss10", "velikost": 3.0 },
+    { "rozmer": "ss12", "velikost": 3.3 },
+    { "rozmer": "ss16", "velikost": 4.1 },
+    { "rozmer": "ss20", "velikost": 4.9 },
+    { "rozmer": "ss30", "velikost": 6.6 },
+    { "rozmer": "ss34", "velikost": 7.35 },
+    { "rozmer": "ss40", "velikost": 8.65 },
+    { "rozmer": "ss48", "velikost": 11.4 }
+  ],
+  "Tvarove": [
+    { "rozmer": "3/4 Ball", "velikost": ["4", "6", "8"] },
+    { "rozmer": "Baguette", "velikost": ["4x2", "5x2,5"] },
+    { "rozmer": "Chessboard", "velikost": ["6", "6x6", "8", "8x8", "10", "10x10", "12", "12x12", "14", "14x14", "20", "20x20"] },
+    { "rozmer": "Heart", "velikost": ["10", "14", "6"] },
+    { "rozmer": "Hexagon", "velikost": ["5,5"] },
+    { "rozmer": "Kite", "velikost": ["6,4x4,2", "8,6x5,6"] },
+    { "rozmer": "Leaf", "velikost": ["10x8", "14x11"] },
+    { "rozmer": "Navette", "velikost": ["4x2", "6x3", "8x4"] },
+    { "rozmer": "Octagon", "velikost": ["6x4"] },
+    { "rozmer": "Pear", "velikost": ["10x6", "6x3,6", "8x4,8"] },
+    { "rozmer": "Pyramid", "velikost": ["12x12", "5x5", "8x8", "5", "8", "12"] },
+    { "rozmer": "Rhombus", "velikost": ["10x6", "6x4"] },
+    { "rozmer": "Rivoli", "velikost": ["10", "14"] },
+    { "rozmer": "Slim Baguette", "velikost": ["12x4", "15x5"] },
+    { "rozmer": "Solitaire", "velikost": ["6,5x4"] },
+    { "rozmer": "Square", "velikost": ["3", "3x3", "4", "4x4", "6", "6x6"] },
+    { "rozmer": "Triangle", "velikost": ["6", "6x6"] },
+    { "rozmer": "Wave", "velikost": ["8x2,6"] }
+  ]
+}

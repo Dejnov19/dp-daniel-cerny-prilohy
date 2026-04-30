@@ -1,0 +1,48 @@
+{
+  "kamen": [
+    {
+      "tvar": "Kulate",
+      "rozmery": [
+        { "rozmer": "ss2"},
+        { "rozmer": "ss3"},
+        { "rozmer": "ss4"},
+        { "rozmer": "ss5"},
+        { "rozmer": "ss6"},
+        { "rozmer": "ss7"},
+        { "rozmer": "ss8"},
+        { "rozmer": "ss9"},
+        { "rozmer": "ss10"},
+        { "rozmer": "ss12"},
+        { "rozmer": "ss16"},
+        { "rozmer": "ss20"},
+        { "rozmer": "ss30"},
+        { "rozmer": "ss34"},
+        { "rozmer": "ss40"},
+        { "rozmer": "ss48"}
+      ]
+    },
+    {
+      "tvar": "Tvarove",
+      "rozmery": [
+        { "rozmer": "3/4 Ball", "velikosti": ["4", "6", "8"] },
+        { "rozmer": "Baguette", "velikosti": ["4x2", "5x2,5"] },
+        { "rozmer": "Chessboard", "velikosti": ["6", "6x6", "8", "8x8", "10", "10x10", "12", "12x12", "14", "14x14", "20", "20x20"] },
+        { "rozmer": "Heart", "velikosti": ["10", "14", "6"] },
+        { "rozmer": "Hexagon", "velikosti": ["5,5"] },
+        { "rozmer": "Kite", "velikosti": ["6,4x4,2", "8,6x5,6"] },
+        { "rozmer": "Leaf", "velikosti": ["10x8", "14x11"] },
+        { "rozmer": "Navette", "velikosti": ["4x2", "6x3", "8x4"] },
+        { "rozmer": "Octagon", "velikosti": ["6x4"] },
+        { "rozmer": "Pear", "velikosti": ["10x6", "6x3,6", "8x4,8"] },
+        { "rozmer": "Pyramid", "velikosti": ["12x12", "5x5", "8x8", "5", "8", "12"] },
+        { "rozmer": "Rhombus", "velikosti": ["10x6", "6x4"] },
+        { "rozmer": "Rivoli", "velikosti": ["10", "14"] },
+        { "rozmer": "Slim Baguette", "velikosti": ["12x4", "15x5"] },
+        { "rozmer": "Solitaire", "velikosti": ["6,5x4"] },
+        { "rozmer": "Square", "velikosti": ["3", "3x3", "4", "4x4", "6", "6x6"] },
+        { "rozmer": "Triangle", "velikosti": ["6", "6x6"] },
+        { "rozmer": "Wave", "velikosti": ["8x2,6"] }
+      ]
+    }
+  ]
+}

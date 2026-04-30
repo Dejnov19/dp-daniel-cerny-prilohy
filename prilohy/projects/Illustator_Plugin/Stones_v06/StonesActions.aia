@@ -1,0 +1,152 @@
+/version 3
+/name [ 13
+	53746f6e6573416374696f6e73
+]
+/isOpen 1
+/actionCount 3
+/action-1 {
+	/name [ 7
+		7265436f6c6f72
+	]
+	/keyIndex 0
+	/colorIndex 4
+	/isOpen 1
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (adobe_commandManager)
+		/localizedName [ 17
+			506f6c6fc5be6b61206e6162c3ad646b79
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 0
+		/parameterCount 2
+		/parameter-1 {
+			/key 1769238125
+			/showInPalette -1
+			/type (ustring)
+			/value [ 17
+				5f30303030303238463542453438304630
+			]
+		}
+		/parameter-2 {
+			/key 1818455661
+			/showInPalette -1
+			/type (ustring)
+			/value [ 7
+				7265436f6c6f72
+			]
+		}
+	}
+}
+/action-2 {
+	/name [ 10
+		4d616b65436972636c65
+	]
+	/keyIndex 0
+	/colorIndex 2
+	/isOpen 1
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_ovalTool)
+		/localizedName [ 15
+			4ec3a17374726f6a20656c69707361
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 7
+		/parameter-1 {
+			/key 1953460076
+			/showInPalette -1
+			/type (integer)
+			/value 14
+		}
+		/parameter-2 {
+			/key 2003072104
+			/showInPalette -1
+			/type (unit real)
+			/value 28.3464566929
+			/unit 592476268
+		}
+		/parameter-3 {
+			/key 1751607412
+			/showInPalette -1
+			/type (unit real)
+			/value 28.3462781337
+			/unit 592476268
+		}
+		/parameter-4 {
+			/key 1668182644
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+		/parameter-5 {
+			/key 1668183128
+			/showInPalette -1
+			/type (unit real)
+			/value 1132.7819239987
+			/unit 592476268
+		}
+		/parameter-6 {
+			/key 1668183129
+			/showInPalette -1
+			/type (unit real)
+			/value 806.3905303712
+			/unit 592476268
+		}
+		/parameter-7 {
+			/key 1667854947
+			/showInPalette -1
+			/type (boolean)
+			/value 0
+		}
+	}
+}
+/action-3 {
+	/name [ 10
+		4d616b654f6666736574
+	]
+	/keyIndex 0
+	/colorIndex 2
+	/isOpen 1
+	/eventCount 1
+	/event-1 {
+		/useRulersIn1stQuadrant 0
+		/internalName (ai_plugin_offset)
+		/localizedName [ 15
+			4f6473617a656ec3a1206365737461
+		]
+		/isOpen 0
+		/isOn 1
+		/hasDialog 1
+		/showDialog 0
+		/parameterCount 3
+		/parameter-1 {
+			/key 1868985204
+			/showInPalette -1
+			/type (unit real)
+			/value 1.4173228346
+			/unit 592476268
+		}
+		/parameter-2 {
+			/key 1835627634
+			/showInPalette -1
+			/type (real)
+			/value 4.0
+		}
+		/parameter-3 {
+			/key 1785623664
+			/showInPalette -1
+			/type (enumerated)
+			/name [ 6
+				4f737472c3a9
+			]
+			/value 2
+		}
+	}
+}
